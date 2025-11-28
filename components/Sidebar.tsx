@@ -21,12 +21,18 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeSection, onNavigate }) =
     <aside className="fixed left-0 top-0 h-full w-20 md:w-64 z-50 bg-black/60 backdrop-blur-md border-r border-white/10 flex flex-col justify-between py-8 transition-all duration-300">
       
       {/* Brand / Logo Area */}
-      <div className="px-4 md:px-8 mb-8 text-center md:text-left">
-        <div className="w-10 h-10 md:w-12 md:h-12 bg-yellow-500 rounded-full flex items-center justify-center font-bold text-black text-xl mb-2 mx-auto md:mx-0">
-          SA
+      <div className="px-4 md:px-8 mb-8 text-center md:text-left flex flex-col items-center md:items-start">
+        <div className="w-12 h-12 md:w-16 md:h-16 mb-4 rounded-full overflow-hidden border-2 border-yellow-500 shadow-[0_0_15px_rgba(234,179,8,0.3)] bg-black">
+          <img 
+            src="https://i.postimg.cc/FF0PCkr2/ojp.png" 
+            alt="Shuvo Aaryen Logo" 
+            className="w-full h-full object-cover"
+          />
         </div>
-        <h1 className="hidden md:block text-xl font-bold tracking-wider">AARYEN</h1>
-        <p className="hidden md:block text-xs text-gray-400 mt-1">Portfolio</p>
+        <h1 className="hidden md:block text-xl font-bold tracking-wider leading-tight">
+          SHUVO<br/>AARYEN
+        </h1>
+        <p className="hidden md:block text-xs text-gray-400 mt-2 tracking-widest uppercase">Portfolio</p>
       </div>
 
       {/* Navigation Links */}
@@ -62,7 +68,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeSection, onNavigate }) =
       {/* Footer / Social Placeholder */}
       <div className="px-4 md:px-8 text-center md:text-left">
         <p className="hidden md:block text-[10px] text-gray-600 uppercase tracking-widest">
-          &copy; 2024 Shuvo Aaryen
+          &copy; 2025 Shuvo Aaryen
         </p>
       </div>
     </aside>
