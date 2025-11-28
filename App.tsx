@@ -70,7 +70,8 @@ const App: React.FC = () => {
           <Contact />
           
           <footer className="py-8 text-center text-gray-600 text-sm border-t border-white/5 mx-4 md:mx-12">
-             <p>Designed with React, Tailwind & ❤️</p>
+             <p>&copy; 2025 Shuvo Aaryen — All Rights Reserved</p>
+             <p className="mt-2">Designed by Shuvo Aaryen</p>
           </footer>
         </main>
       </div>
